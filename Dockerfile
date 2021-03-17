@@ -8,7 +8,7 @@ ARG PYTHON_VERSION=3.8
 FROM node:${NODE_VERSION} AS build
 
 # Superset version to build
-ARG SUPERSET_VERSION=master
+ARG SUPERSET_VERSION=1.0.1-timbo-patch
 ENV SUPERSET_HOME=/var/lib/superset/
 
 # Download source
